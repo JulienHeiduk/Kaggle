@@ -7,3 +7,10 @@ This challenge was crafted as a simulation of the type of problem you might tack
 Kagglers who stand out will be considered for data science roles in Telstra's Big Data team in Telstra’s absolute discretion. Highly-ranked participants will combine technical expertise and intuition in data science problems with a keen business sense and an effortless ability to work with technical and non-technical staff to turn data into real changes that impact customers. Highly-ranked participants will be considered by Telstra for interviews for employment, based on their work in the Competition and ability to meet the selection criteria for any suitable open job vacancy in Melbourne and Sydney, Australia. Participation in this Competition is not a recruitment process and Kaggle does not provide Telstra with recruitment services.
 
 Link: https://www.kaggle.com/c/telstra-recruiting-network
+
+#Remarques
+Classification Supervisé sur 3 classes. 6 fichiers csv dont un pour les données d'apprentissage + un pour les données de test. Plusieurs possibilités de jointures de ces fichiers. La métric utilisée ici est la 'mlogloss' (qualité des probabilités de chaque classes).
+
+Remarque 1: La consolidation de l'ensemble des fichiers nous amène, avec le XGBOOST, à un score 0.53XX. Le résultat final est de 0.39XX. Le but ici était de traiter le principe de feature engineering. Le score final obtenu est de 0.49XX.
+
+Remarque 2:Le One Hot Encoding de la variable 'location' peut être utilisé pour intégrer les méta variables (probabilités) à l'aide du regression logistique.
