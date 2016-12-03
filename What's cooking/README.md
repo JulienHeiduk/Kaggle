@@ -8,3 +8,8 @@ Acknowledgements
 We want to thank Yummly for providing this unique dataset. Kaggle is hosting this playground competition for fun and practice.
 
 Link: https://www.kaggle.com/c/whats-cooking
+
+#Remarques
+Classification supervisée sur l'origine des recettes suivant leurs ingrédients. Deux fichiers Json à disposition 1 pour l'apprentissage + 1 pour LB Concours Kaggle What's cooking? : https://www.kaggle.com/c/whats-cooking
+
+Une solution proposée sous Python + indications d'améliorations => Pistes d'améliorations: -XGBOOST -N-grammes (2-6) -Création d'une distance entre chaines de caractères afin du rassembler les mots très proches
