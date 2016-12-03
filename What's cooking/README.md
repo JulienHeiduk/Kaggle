@@ -6,3 +6,5 @@ Some of our strongest geographic and cultural associations are tied to a region'
 
 Acknowledgements
 We want to thank Yummly for providing this unique dataset. Kaggle is hosting this playground competition for fun and practice.
+
+Link: https://www.kaggle.com/c/whats-cooking
