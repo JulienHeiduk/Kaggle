@@ -1,2 +1,2 @@
 # Kaggle
-Scripts Python de classification - regression - datavisualisation avec des données du site Kaggle: https://www.kaggle.com/ 
+Scripts Python classification - regression - datavisualisation with data of Kaggle: https://www.kaggle.com/ 
